@@ -1,34 +1,30 @@
 /* CSS codes for the qr scan code*/
 .background {
-  background-color: rgb(226, 238, 248);
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.whitespace {
-  background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  position: relative;
-  width: 200px;
-  height: 300px;
-  border-radius: 8px;
+  align-items: center;
+  height: 100vh;
+  background-color: hsl(212, 45%, 89%)
+  }
+
+.whitespace {
+  background-color: white;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 200px;
+  height: auto;
+  border-radius: 6px;
   box-shadow:  4px 4px 4px rgba(0, 0, 0, 0.05);
 }
 
 .qr-code {
   width: 180px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  top: 10px;
-  right: 10px;
   border-radius: 6px;
+  align-items: center;
 }
 
 .first-text {
@@ -37,9 +33,6 @@
   width: 150px;
   font-size: 12px;
   font-weight: 700;
-  position: absolute;
-  top: 185px;
-  right: 25px;
   line-height: 15px;
 }
 
@@ -49,9 +42,7 @@
   width: 180px;
   font-size: 10px;
   font-weight: 700;
-  position: absolute;
-  bottom: 20px;
-  right: 10px;
   color: gray;
   line-height: 12px;
 }
+
